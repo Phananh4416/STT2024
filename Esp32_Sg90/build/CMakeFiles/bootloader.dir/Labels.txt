@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+E:/STT2024/Esp32_Sg90/build/CMakeFiles/bootloader
+E:/STT2024/Esp32_Sg90/build/CMakeFiles/bootloader.rule
+E:/STT2024/Esp32_Sg90/build/CMakeFiles/bootloader-complete.rule
+E:/STT2024/Esp32_Sg90/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+E:/STT2024/Esp32_Sg90/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+E:/STT2024/Esp32_Sg90/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+E:/STT2024/Esp32_Sg90/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+E:/STT2024/Esp32_Sg90/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+E:/STT2024/Esp32_Sg90/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+E:/STT2024/Esp32_Sg90/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
