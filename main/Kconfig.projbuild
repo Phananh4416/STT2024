@@ -1,0 +1,54 @@
+menu "Project Configuration"
+
+menu "Servo Configuration"
+config SERVO_PWM_GPIO
+    int "Servo PWM GPIO Pin"
+    default 18
+    help
+        GPIO pin number used for PWM signal to the servo motor.
+
+config USER_SERVO_ANGLE
+    int "User-defined Servo Angle"
+    default 90
+    help
+        Angle value for servo to rotate to, input by the user.
+
+endmenu
+
+menu "WiFi Configuration"
+config WIFI_SSID
+    string "WiFi SSID"
+    default "your_SSID"
+    help
+        The SSID of the WiFi network to connect to.
+
+config WIFI_PASS
+    string "WiFi Password"
+    default "your_PASSWORD"
+    help
+        The password of the WiFi network to connect to.
+
+endmenu
+
+menu "Thinkboard Configuration"
+config THINKBOARD_SERVER
+    string "Thinkboard Server"
+    default "mqtt://broker.thinkboard.com"
+    help
+        The server URL for Thinkboard.
+
+config THINKBOARD_PORT
+    int "Thinkboard Port"
+    default 1883
+    help
+        The port for connecting to Thinkboard.
+
+config THINKBOARD_TOKEN
+    string "Thinkboard Access Token"
+    default "your_access_token"
+    help
+        The access token for Thinkboard authentication.
+
+endmenu
+
+endmenu
