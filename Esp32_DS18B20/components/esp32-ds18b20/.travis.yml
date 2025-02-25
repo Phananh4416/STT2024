@@ -10,7 +10,7 @@ branches:
 # Environment variables
 env:
   global:
-    - GH_REPO_REF: github.com/DavidAntliff/esp32-ds18b20.git
+    - GH_REPO_REF: github.com/Phananh4416/esp32-ds18b20.git
 
 # Install dependencies
 addons:
@@ -27,7 +27,7 @@ script:
   - cd doc
   - doxygen
 
-# Deploy using Travis-CI/GitHub Pages integration support
+# Deploy 
 deploy:
   provider: pages
   skip-cleanup: true
